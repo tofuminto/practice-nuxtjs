@@ -1,0 +1,48 @@
+nuxt.config.jsファイル
+
+  Nuxt.jsの設定を行う唯一の場所。モジュールの追加やデフォルトの設定を上書きしたい場合は
+  ここで変更を適用する。
+
+package.jsonファイル
+
+  アプリケーションの全ての依存関係とスクリプトが含まれている。
+
+
+他にもcontent,layouts,middleware,modules,plugins,storeなどのディレクトリや
+ファイルがある。これらは小規模の開発には使わないが規模次第では使用していく。
+
+
+【Nuxt.jsでの開発・運用するときに役立つコマンド】
+
+
+
+package.jsonを使用する時は下記を記述する
+
+"scripts": {
+  "dev": "nuxt",
+  "build": "nuxt build",
+  "start": "nuxt start",
+  "generate": "nuxt generate"
+}
+
+
+
+次に下記コマンドをターミナルで実行。（yarn -v と npm -vでどちらが入っているかでコマンド入力が異なる。）
+
+npm run dev もしくは yarn dev
+
+これで http://localhost:3000 で開くことができる。
+
+
+ターゲットにより異なるコマンドを実行できる（デプロイターゲットのことだと思う。）
+  target: server(デフォルト値)
+nuxt dev - 開発サーバーを起動する
+nuxt build - 本番用のwebpackを使用してアプリケーションのビルドおよび最適化をする
+nuxt start - (nuxt buildを実行した後に)本番サーバーを起動する。herokuやdigital oceanなどのnode.jsホスティングを使用する
+
+  target: static
+nuxt dev - 開発サーバーを起動する
+nuxt generate - （必要に応じて）アプリケーションをビルドして、全てのルートをHTMLファイルとして生成し、
+                 dist/ ディレクトリに静的にエクスポートする。（静的ホスティングを使用する）
+nuxt start - 静的ホスティング（Netlify, Vercel, Surgeなど））と同じ様に dist/ ディレクトリを提供する。 
+             デプロイ前のテストに最適。

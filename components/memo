@@ -1,0 +1,2 @@
+このディレクトリにjsファイルを入れると.vueファイルにインポートすることができる。
+nuxt.config.js内のcomponentsをtrueに設定するとNuxt.jsがスキャンして自動でインポートしてくれる。
