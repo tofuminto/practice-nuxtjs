@@ -1,0 +1,13 @@
+◆Environment
+------------------------------
+nodejs
+npm(yarn)
+
+
+
+◆Relation to Vue
+------------------------------
+Nuxtjs - vue.js wrapper
+Vue.js - javascript framework
+Vuetifyjs - UI Library
+html - not haml
