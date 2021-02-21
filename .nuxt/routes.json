@@ -1,10 +1,10 @@
 [
   {
-    "name": "more-fun",
-    "path": "/more-fun",
-    "component": "/Users/toyama/projects/my-app/practice/pages/more-fun/index.vue",
-    "chunkName": "pages/more-fun/index",
-    "_name": "_8e1045e2"
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/toyama/projects/my-app/practice/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_34eb90b4"
   },
   {
     "name": "index",
@@ -12,12 +12,5 @@
     "component": "/Users/toyama/projects/my-app/practice/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_35afd7c6"
-  },
-  {
-    "name": "fun",
-    "path": "/:fun",
-    "component": "/Users/toyama/projects/my-app/practice/pages/_fun.vue",
-    "chunkName": "pages/_fun",
-    "_name": "_f0e4c976"
   }
 ]

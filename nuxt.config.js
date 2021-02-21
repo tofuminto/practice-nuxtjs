@@ -1,9 +1,5 @@
 {
-  buildModuels: [
+  buildModules: [
     '@nuxtjs/vuetify'
   ]
-}
-
-export default {
-  ssr: false
 }

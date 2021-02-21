@@ -1,8 +1,5 @@
 <template>
   <main>
-    <h1> HOME PAGE </h1>
-    <NuxtLink to="/more-fun"> 遷移 </NuxtLink>
-    <a href="https://www.google.com/?hl=ja">Google</a>
   </main>
 </template>
 
@@ -11,8 +8,5 @@
 </style>
 
 <script>
-export default {
-  // jsコードを記述
-  layout: 'fun'
-}
+  /* jsコードを記述 */
 </script>
